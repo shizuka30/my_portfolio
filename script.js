@@ -4,8 +4,8 @@ document.addEventListener('DOMContentLoaded', () => {
     if (document.querySelector('#typed-text')) {
         var options = {
             strings: [
-                'Turning Data into Real-World Impact.',
                 'AI & Data Science Developer',
+                'Turning Data into Impact',
                 'Full-Stack Problem Solver',
                 'Building Intelligent Solutions'
             ],
@@ -69,29 +69,29 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // --- Case Study Modal Logic ---
     const projectDetails = {
-        eventconnect: {
-            title: "EventConnect – Smart Event Planner",
-            description: "A full-stack platform that connects users with event vendors and streamlines event bookings. Built to handle over 1,200 users, it features a robust admin and vendor approval system with secure JWT authentication. The system simplifies the process of finding and booking event services, improving efficiency for both users and vendors.",
-            learnings: "Key challenges included designing a multi-role authentication system (Admin, Vendor, User) and optimizing database queries for fast vendor lookups. This project solidified my understanding of the MERN stack and state management in React for complex user interfaces.",
-            tags: "<span>React</span><span>Node.js</span><span>MongoDB</span><span>JWT Auth</span><span>Admin Panel</span>",
-            demoLink: "https://github.com/shizuka30",
-            codeLink: "https://github.com/shizuka30"
+        sustainify: {
+            title: "Sustainify – Recommendation Engine",
+            description: "An intelligent system suggesting eco-friendly products based on user behavior and sustainability scores. It achieves an accuracy of 87.6% using a hybrid Content-Based & Collaborative Filtering model on a database of over 5,000 rated items.",
+            learnings: "This project was a deep dive into practical machine learning, from data preprocessing with Pandas to model building with Scikit-learn and deploying the engine via a Flask API.",
+            tags: "<span>Python</span><span>Flask</span><span>Scikit-learn</span><span>Collaborative Filtering</span>",
+            demoLink: "https://github.com/shizuka30/Recommendation-Engine-for-Sustainable-and-Eco-Friendly-Products-",
+            codeLink: "https://github.com/shizuka30/Recommendation-Engine-for-Sustainable-and-Eco-Friendly-Products-"
         },
-        cropsmart: {
-            title: "CropSmart – AI-Powered Crop Advisor",
-            description: "An AI-driven platform that helps farmers choose crops, predict diseases, and optimize fertilizer use. It achieves an accuracy of 91.3% using a Random Forest + CNN model, trained on over 10,000+ crop images. This agritech solution leverages Python, Machine Learning (Flask), and computer vision (OpenCV) to provide actionable insights for modern farming.",
-            learnings: "The main challenge was integrating a hybrid Random Forest and CNN model for high accuracy in disease prediction from images. This project deepened my skills in computer vision with OpenCV, model ensembling, and deploying real-time ML systems with Flask.",
-            tags: "<span>Python</span><span>Flask</span><span>OpenCV</span><span>Machine Learning</span><span>Scikit-learn</span>",
-            demoLink: "https://github.com/shizuka30",
-            codeLink: "https://github.com/shizuka30"
+        studybuddy: {
+            title: "StudyBuddy AI – Learning Assistant",
+            description: "Developed an intelligent chatbot using Natural Language Processing (NLP) to simplify complex study concepts, summarize notes, and generate quizzes dynamically. Implements a step-by-step learning flow (Explain → Example → Quiz).",
+            learnings: "Ensured data privacy and performance optimization (<2s response time) using modular AI pipelines and Redis session management. Deployed the solution via GitHub for open access.",
+            tags: "<span>Python</span><span>NLP</span><span>Flask</span><span>Redis</span><span>Hugging Face</span>",
+            demoLink: "https://github.com/shizuka30/StudyBuddy_AI",
+            codeLink: "https://github.com/shizuka30/StudyBuddy_AI"
         },
-        crisisguardian: {
-            title: "CrisisGuardian AI - Intelligent Bug Detection",
-            description: "This is a proactive bug detection system that uses machine learning and static code analysis to identify bugs, security vulnerabilities, and code smells before they reach production. It integrates directly into CI/CD pipelines to provide automated feedback to developers on every commit, improving code quality and security.",
-            learnings: "This project was a deep dive into abstract syntax trees (ASTs) and creating custom linting rules. The main challenge was training a machine learning model to accurately classify code 'smells' with a low false-positive rate, which involved extensive feature engineering from the code structure itself.",
-            tags: "<span>Python</span><span>Scikit-learn</span><span>TensorFlow</span><span>CI/CD</span><span>AST</span>",
-            demoLink: "https://github.com/shizuka30",
-            codeLink: "https://github.com/shizuka30"
+        netflix: {
+            title: "Netflix Data Analysis",
+            description: "A comprehensive Exploratory Data Analysis (EDA) on the Netflix dataset. This project uncovers trends in content duration, movie vs. TV show ratios, genre popularity, and rating distributions across different countries.",
+            learnings: "Focused on data visualization best practices using Matplotlib and Seaborn to tell a compelling story through data. Handled data cleaning and feature engineering to extract meaningful insights.",
+            tags: "<span>Python</span><span>Pandas</span><span>Matplotlib</span><span>Seaborn</span><span>Jupyter</span>",
+            demoLink: "https://github.com/shizuka30/netflix-analysis",
+            codeLink: "https://github.com/shizuka30/netflix-analysis"
         }
     };
 
